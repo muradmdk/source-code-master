@@ -116,15 +116,12 @@
   * {
     @apply border-border outline-ring/50;
   }
-<<<<<<< HEAD
 
-=======
->>>>>>> 90178e26dea3c311b8bfd0260f99694f3b00313b
   body {
     @apply bg-background text-foreground;
   }
 }
-<<<<<<< HEAD
+
 
 
 .button {
@@ -179,5 +176,4 @@
 .link-hover:is(:hover, :focus){
   box-shadow: 0rem 0.5rem 1.25rem 0.125rem rgb(0, 0, 0, 0.3);
 }
-=======
->>>>>>> 90178e26dea3c311b8bfd0260f99694f3b00313b
+
