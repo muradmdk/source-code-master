@@ -1,6 +1,10 @@
 const ROUTES = {
+<<<<<<< HEAD
   Home: "/",
   COURSES: "/courses",
+=======
+  HOME: "/",
+>>>>>>> 90178e26dea3c311b8bfd0260f99694f3b00313b
   LOG_IN: "/log-in",
   SIGN_UP: "/sign-up",
   FORGET_PASSWORD: "/forget-password",
