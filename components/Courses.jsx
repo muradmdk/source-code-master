@@ -100,7 +100,7 @@ const Courses = () => {
                                                 <span className='text-[#a2c95c] text-[18px] font-bold '>PKR. 8,900.00/Month</span>
                                             </div>
 
-                                            <Link href="" className='block text-center w-full py-2 px-[25px] leading-[1] text-[#101010] bg-[#a2c95c] text-[15px] border-[2px] border-[#a2c95c] font-bold  duration-400 ease-linear hover:bg-black hover:text-white hover:border-[#000]'>
+                                            <Link href="/arabic-for-adults" className='block text-center w-full py-2 px-[25px] leading-[1] text-[#101010] bg-[#a2c95c] text-[15px] border-[2px] border-[#a2c95c] font-bold  duration-400 ease-linear hover:bg-black hover:text-white hover:border-[#000]'>
                                                 Reserve Your Spot
                                             </Link>
 
@@ -166,7 +166,7 @@ const Courses = () => {
                                                 <span className='text-[#a2c95c] text-[18px] font-bold '>PKR. 8,900.00/Month</span>
                                             </div>
 
-                                            <Link href="" className='block text-center w-full py-2 px-[25px] leading-[1] text-[#101010] bg-[#a2c95c] text-[15px] border-[2px] border-[#a2c95c] font-bold  duration-400 ease-linear hover:bg-black hover:text-white hover:border-[#000]'>
+                                            <Link href="/arabic-for-adults" className='block text-center w-full py-2 px-[25px] leading-[1] text-[#101010] bg-[#a2c95c] text-[15px] border-[2px] border-[#a2c95c] font-bold  duration-400 ease-linear hover:bg-black hover:text-white hover:border-[#000]'>
                                                 Reserve Your Spot
                                             </Link>
 
@@ -231,7 +231,7 @@ const Courses = () => {
                                                 <span className='text-[#a2c95c] text-[18px] font-bold '>PKR. 8,900.00/Month</span>
                                             </div>
 
-                                            <Link href="" className='block text-center w-full py-2 px-[25px] leading-[1] text-[#101010] bg-[#a2c95c] text-[15px] border-[2px] border-[#a2c95c] font-bold  duration-400 ease-linear hover:bg-black hover:text-white hover:border-[#000]'>
+                                            <Link href="/arabic-for-adults" className='block text-center w-full py-2 px-[25px] leading-[1] text-[#101010] bg-[#a2c95c] text-[15px] border-[2px] border-[#a2c95c] font-bold  duration-400 ease-linear hover:bg-black hover:text-white hover:border-[#000]'>
                                                 Reserve Your Spot
                                             </Link>
 
@@ -296,7 +296,7 @@ const Courses = () => {
                                                 <span className='text-[#a2c95c] text-[18px] font-bold '>PKR. 8,900.00/Month</span>
                                             </div>
 
-                                            <Link href="" className='block text-center w-full py-2 px-[25px] leading-[1] text-[#101010] bg-[#a2c95c] text-[15px] border-[2px] border-[#a2c95c] font-bold  duration-400 ease-linear hover:bg-black hover:text-white hover:border-[#000]'>
+                                            <Link href="/arabic-for-adults" className='block text-center w-full py-2 px-[25px] leading-[1] text-[#101010] bg-[#a2c95c] text-[15px] border-[2px] border-[#a2c95c] font-bold  duration-400 ease-linear hover:bg-black hover:text-white hover:border-[#000]'>
                                                 Reserve Your Spot
                                             </Link>
 
@@ -361,7 +361,7 @@ const Courses = () => {
                                                 <span className='text-[#a2c95c] text-[18px] font-bold '>PKR. 8,900.00/Month</span>
                                             </div>
 
-                                            <Link href="" className='block text-center w-full py-2 px-[25px] leading-[1] text-[#101010] bg-[#a2c95c] text-[15px] border-[2px] border-[#a2c95c] font-bold  duration-400 ease-linear hover:bg-black hover:text-white hover:border-[#000]'>
+                                            <Link href="/arabic-for-adults" className='block text-center w-full py-2 px-[25px] leading-[1] text-[#101010] bg-[#a2c95c] text-[15px] border-[2px] border-[#a2c95c] font-bold  duration-400 ease-linear hover:bg-black hover:text-white hover:border-[#000]'>
                                                 Reserve Your Spot
                                             </Link>
 
@@ -427,7 +427,7 @@ const Courses = () => {
                                                 <span className='text-[#a2c95c] text-[18px] font-bold '>PKR. 8,900.00/Month</span>
                                             </div>
 
-                                            <Link href="" className='block text-center w-full py-2 px-[25px] leading-[1] text-[#101010] bg-[#a2c95c] text-[15px] border-[2px] border-[#a2c95c] font-bold  duration-400 ease-linear hover:bg-black hover:text-white hover:border-[#000]'>
+                                            <Link href="/arabic-for-adults" className='block text-center w-full py-2 px-[25px] leading-[1] text-[#101010] bg-[#a2c95c] text-[15px] border-[2px] border-[#a2c95c] font-bold  duration-400 ease-linear hover:bg-black hover:text-white hover:border-[#000]'>
                                                 Reserve Your Spot
                                             </Link>
 

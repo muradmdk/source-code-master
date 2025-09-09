@@ -42,7 +42,7 @@ const Teach = () => {
                                     Join the ranks of our esteemed instructors at Source Code Academia and become a driving force in the global effort to enhance Muslim competency. As a member of our community, you will have the opportunity to make a real difference in the lives of students around the world and be a part of a movement that is working towards positive change. Together, we can create a brighter future for all.
                                 </p>
 
-                                <Link href="" className='py-2 px-[25px] leading-[1] bg-[#101010] text-[#ffff] text-[15px] border-[2px] border-[#101010] w-auto h-auto font-semibold duration-400 ease-linear hover:bg-transparent hover:border-[#000] hover:text-[#101010]  '>
+                                <Link href="/courses" className='py-2 px-[25px] leading-[1] bg-[#101010] text-[#ffff] text-[15px] border-[2px] border-[#101010] w-auto h-auto font-semibold duration-400 ease-linear hover:bg-transparent hover:border-[#000] hover:text-[#101010]  '>
                                     View All Courses
                                 </Link>
 

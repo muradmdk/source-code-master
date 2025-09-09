@@ -2,11 +2,14 @@ import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import FacultyCard from './FacultyCard'
+import Header from '@/components/Header'
+import Footer from '@/components/Footer'
 
 const page = () => {
     return (
         <>
-            <div className='pt-[30px]'>
+            <Header/>
+            <div className='pt-[120px] pb-4'>
 
                 {/* container */}
                 <div className='w-full max-w-[1230px] px-[15px] mx-auto'>
@@ -96,6 +99,8 @@ const page = () => {
                 </div>
 
             </div>
+
+            <Footer/>
         </>
     )
 }

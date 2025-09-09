@@ -17,7 +17,7 @@ const FeatureCourse = () => {
                             <h2 className='text-[35px] text-[#101010] font-bold leading-[1] z-[2] relative'>
                                 Featured Courses
                             </h2>
-                            <Link href="" className='py-2 px-[25px] leading-[1] bg-white text-[#101010] text-[15px] border-[2px] border-[#a2c95c] w-auto h-auto font-semibold duration-400 ease-linear hover:bg-black hover:border-[#000] hover:text-[#a2c95c]  '>
+                            <Link href="/courses" className='py-2 px-[25px] leading-[1] bg-white text-[#101010] text-[15px] border-[2px] border-[#a2c95c] w-auto h-auto font-semibold duration-400 ease-linear hover:bg-black hover:border-[#000] hover:text-[#a2c95c]  '>
                                 View All Courses
                             </Link>
                         </div>
@@ -82,7 +82,7 @@ const FeatureCourse = () => {
                                         <span className='text-[#a2c95c] text-[18px] font-bold '>PKR. 6,900.00/Month</span>
                                     </div>
 
-                                    <Link href="" className='block text-center w-full py-2 px-[25px] leading-[1] text-[#101010] bg-[#a2c95c] text-[15px] border-[2px] border-[#a2c95c] font-bold  duration-400 ease-linear hover:bg-black hover:text-white hover:border-[#000]'>
+                                    <Link href="/arabic-for-adults" className='block text-center w-full py-2 px-[25px] leading-[1] text-[#101010] bg-[#a2c95c] text-[15px] border-[2px] border-[#a2c95c] font-bold  duration-400 ease-linear hover:bg-black hover:text-white hover:border-[#000]'>
                                         Reserve Your Spot
                                     </Link>
 
@@ -147,7 +147,7 @@ const FeatureCourse = () => {
                                         <span className='text-[#a2c95c] text-[18px] font-bold '>PKR. 6,900.00/Month</span>
                                     </div>
 
-                                    <Link href="" className='block text-center w-full py-2 px-[25px] leading-[1] text-[#101010] bg-[#a2c95c] text-[15px] border-[2px] border-[#a2c95c] font-bold  duration-400 ease-linear hover:bg-black hover:text-white hover:border-[#000]'>
+                                    <Link href="/arabic-for-adults" className='block text-center w-full py-2 px-[25px] leading-[1] text-[#101010] bg-[#a2c95c] text-[15px] border-[2px] border-[#a2c95c] font-bold  duration-400 ease-linear hover:bg-black hover:text-white hover:border-[#000]'>
                                         Reserve Your Spot
                                     </Link>
 
@@ -212,7 +212,7 @@ const FeatureCourse = () => {
                                         <span className='text-[#a2c95c] text-[18px] font-bold '>PKR. 6,900.00/Month</span>
                                     </div>
 
-                                    <Link href="" className='block text-center w-full py-2 px-[25px] leading-[1] text-[#101010] bg-[#a2c95c] text-[15px] border-[2px] border-[#a2c95c] font-bold  duration-400 ease-linear hover:bg-black hover:text-white hover:border-[#000]'>
+                                    <Link href="/arabic-for-adults" className='block text-center w-full py-2 px-[25px] leading-[1] text-[#101010] bg-[#a2c95c] text-[15px] border-[2px] border-[#a2c95c] font-bold  duration-400 ease-linear hover:bg-black hover:text-white hover:border-[#000]'>
                                         Reserve Your Spot
                                     </Link>
 
@@ -277,7 +277,7 @@ const FeatureCourse = () => {
                                         <span className='text-[#a2c95c] text-[18px] font-bold '>PKR. 6,900.00/Month</span>
                                     </div>
 
-                                    <Link href="" className='block text-center w-full py-2 px-[25px] leading-[1] text-[#101010] bg-[#a2c95c] text-[15px] border-[2px] border-[#a2c95c] font-bold  duration-400 ease-linear hover:bg-black hover:text-white hover:border-[#000]'>
+                                    <Link href="/arabic-for-adults" className='block text-center w-full py-2 px-[25px] leading-[1] text-[#101010] bg-[#a2c95c] text-[15px] border-[2px] border-[#a2c95c] font-bold  duration-400 ease-linear hover:bg-black hover:text-white hover:border-[#000]'>
                                         Reserve Your Spot
                                     </Link>
 

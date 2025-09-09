@@ -1,3 +1,5 @@
+import Footer from '@/components/Footer';
+import Header from '@/components/Header';
 import React from 'react'
 
 const termsdata = {
@@ -89,7 +91,7 @@ const termsdata = {
       id: 12,
       type: "content",
       title: "- Contact Us",
-      content:<>If you have any questions about these Terms of Use, please contact us at <span className='text-blue-600 visited:text-purple-600'><a href="info@sourcecode.com.pk">info@sourcecode.com.pk</a></span> </>,
+      content: <>If you have any questions about these Terms of Use, please contact us at <span className='text-blue-600 visited:text-purple-600'><a href="info@sourcecode.com.pk">info@sourcecode.com.pk</a></span> </>,
     },
   ],
 };
@@ -166,9 +168,14 @@ const renderSection = (section) => {
 
 const blogs = () => {
   return (
-    <div className='px-20'>
-      {termsdata.sections.map((section) => renderSection(section))}
-    </div>
+
+    <>
+      <Header />
+      <div className='px-20 pt-[100px] pb-2.5'>
+        {termsdata.sections.map((section) => renderSection(section))}
+      </div>
+      <Footer/>
+    </>
   )
 }
 

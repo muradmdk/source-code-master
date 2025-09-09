@@ -1,3 +1,5 @@
+import Footer from "@/components/Footer";
+import Header from "@/components/Header";
 import { Subtitles } from "lucide-react";
 import React from "react";
 export default function AboutUsPage() {
@@ -109,9 +111,13 @@ export default function AboutUsPage() {
   };
 
   return (
-    <div className="">
-      {aboutData.sections.map((section) => renderSection(section))}
-    </div>
+    <>
+      <Header/>
+      <div className="pt-[80px]">
+        {aboutData.sections.map((section) => renderSection(section))}
+      </div>
+      <Footer/>
+    </>
 
   );
 }

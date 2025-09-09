@@ -3,7 +3,7 @@ import React from 'react'
 const Banner = () => {
     return (
         <>
-            <div>
+            <div className='pt-[93px]'>
                 <div className='maain-banner'>
                     <div className='absolute bottom-[12%] left-[30px] text-left z-10 ml-[15px] text-[#e7e8e9]'>
                         <h1 className='flex flex-col text-[38px] relative tracking-normal leading-[1] font-extrabold'>
