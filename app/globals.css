@@ -116,12 +116,62 @@
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground;
   }
 }
 
 
-.button{
-  @apply bg-primary text-primary-foreground font-semibold py-2 px-4 rounded-md hover:bg-primary/90 transition;    
+.button {
+  @apply bg-primary text-primary-foreground font-semibold py-2 px-4 rounded-md hover:bg-primary/90 transition;
+}
+
+
+.maain-banner {
+  position: relative;
+  background-image: url(../public/images/banner/main-bg.jpg);
+  color: #fff;
+  width: 100%;
+  height: calc(100vh - 6.5rem);
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 100%;
+  background-color: #000;
+  background-size: auto 100%;
+}
+
+
+.about-link {
+  transition: 0.4s linear;
+}
+
+
+.about-link:is(:hover, :focus) {
+  box-shadow: 0 0 1.25rem 0 rgba(0, 0, 0, .3);
+}
+
+
+.featured-shadow {
+  box-shadow: 0 0 1.25rem 0 rgba(0, 0, 0, .1);
+}
+
+
+.featured-hover {
+  transition: 0.4s linear;
+}
+
+.featured-hover:is(:hover, :focus) {
+  box-shadow: 0 0 1.25rem 0 rgba(0, 0, 0, .3);
+}
+
+
+.link-hover{
+  box-shadow: 0 0 1.25rem 0 rgb(0, 0, 0, 0.1);
+  transition:  0.4s linear;
+}
+
+
+.link-hover:is(:hover, :focus){
+  box-shadow: 0rem 0.5rem 1.25rem 0.125rem rgb(0, 0, 0, 0.3);
 }
