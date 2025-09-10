@@ -14,7 +14,7 @@ import {
   SquareTerminal,
 } from "lucide-react"
 
-import { NavMain } from "@/components/nav-main"
+// import { NavMain } from "@/components/nav-main"
 import { NavProjects } from "@/components/nav-projects"
 import { NavUser } from "@/components/nav-user"
 import { TeamSwitcher } from "@/components/team-switcher"
@@ -35,7 +35,7 @@ const data = {
   },
   teams: [
     {
-      name: "Acme Inc",
+      name: "Source Code Academia",
       logo: GalleryVerticalEnd,
       plan: "Enterprise",
     },
@@ -139,20 +139,56 @@ const data = {
   ],
   projects: [
     {
-      name: "Design Engineering",
-      url: "#",
-      icon: Frame,
+      name: "Dashboard",
+      url: "/dashboard",
+      icon: () => <img src="/images/icons/display.svg" alt="dashboard" className="w-5 h-5" />,
     },
     {
-      name: "Sales & Marketing",
-      url: "#",
-      icon: PieChart,
+      name: "My Course",
+      url: "/my-courses",
+      icon: () => <img src="/images/icons/card-checklist.svg" alt="dashboard" className="w-5 h-5" />,
     },
     {
-      name: "Travel",
-      url: "#",
-      icon: Map,
+      name: "My Quiz",
+      url: "/quiz",
+      icon: () => <img src="/images/icons/patch-question.svg" alt="dashboard" className="w-5 h-5" />,
     },
+    ,
+    {
+      name: "Bookmarks",
+      url: "/bookmarks",
+      icon: () => <img src="/images/icons/bookmark-heart.svg" alt="dashboard" className="w-5 h-5" />,
+    }
+    ,
+    {
+      name: "Friends & Family",
+      url: "/friends-family",
+      icon: () => <img src="/images/icons/person-plus.svg" alt="dashboard" className="w-5 h-5" />,
+    },
+    ,
+    {
+      name: "Payment Info",
+      url: "/payment-info",
+      icon: () => <img src="/images/icons/card-checklist.svg" alt="dashboard" className="w-5 h-5" />,
+    },
+    ,
+    {
+      name: "My Profile",
+      url: "/my-profile",
+      icon: () => <img src="/images/icons/person-square.svg" alt="dashboard" className="w-5 h-5" />,
+    },
+    ,
+    {
+      name: "Update Password",
+      url: "/update-password",
+      icon: () => <img src="/images/icons/file-lock.svg" alt="dashboard" className="w-5 h-5" />,
+    },
+    ,
+    {
+      name: " Your Experience",
+      url: "/experience",
+      icon: () => <img src="/images/icons/star.svg" alt="dashboard" className="w-5 h-5" />,
+    }
   ],
 }
 
@@ -165,7 +201,7 @@ export function AppSidebar({
         <TeamSwitcher teams={data.teams} />
       </SidebarHeader>
       <SidebarContent>
-        <NavMain items={data.navMain} />
+        {/* <NavMain items={data.navMain} /> */}
         <NavProjects projects={data.projects} />
       </SidebarContent>
       <SidebarFooter>

@@ -145,7 +145,7 @@ const page = () => {
                                                 <del className='text-[#FFFF] mb-1.5 font-medium'>Rs.20,700.00</del>
                                                 <span>Per Months</span>
                                             </div>
-                                            <Link href="" className='inline-block text-center w-full  mt-3 py-2 px-[25px] leading-[1] text-[#101010] bg-[#a2c95c] text-[15px] border-[2px] border-[#a2c95c] font-bold  duration-400 ease-linear hover:bg-black hover:text-white hover:border-[#000]'>
+                                            <Link href="/enrolment" className='inline-block text-center w-full  mt-3 py-2 px-[25px] leading-[1] text-[#101010] bg-[#a2c95c] text-[15px] border-[2px] border-[#a2c95c] font-bold  duration-400 ease-linear hover:bg-black hover:text-white hover:border-[#000]'>
                                                 Reserve Your Spot
                                             </Link>
                                         </div>
@@ -164,7 +164,7 @@ const page = () => {
                                                 <del className='text-[#909090] mb-1.5 font-medium'>Rs.20,700.00</del>
                                                 <span>3 Months</span>
                                             </div>
-                                            <Link href="" className='inline-block text-center w-full  mt-3 py-2 px-[25px] leading-[1] text-[#101010] bg-[#a2c95c] text-[15px] border-[2px] border-[#a2c95c] font-bold  duration-400 ease-linear hover:bg-black hover:text-white hover:border-[#000]'>
+                                            <Link href="/enrolment" className='inline-block text-center w-full  mt-3 py-2 px-[25px] leading-[1] text-[#101010] bg-[#a2c95c] text-[15px] border-[2px] border-[#a2c95c] font-bold  duration-400 ease-linear hover:bg-black hover:text-white hover:border-[#000]'>
                                                 Reserve Your Spot
                                             </Link>
                                         </div>
@@ -183,7 +183,7 @@ const page = () => {
                                                 <del className='text-[#909090] mb-1.5 font-medium'>Rs.124,200.00</del>
                                                 <span>18 Months</span>
                                             </div>
-                                            <Link href="" className='inline-block text-center w-full  mt-3 py-2 px-[25px] leading-[1] text-[#101010] bg-[#a2c95c] text-[15px] border-[2px] border-[#a2c95c] font-bold  duration-400 ease-linear hover:bg-black hover:text-white hover:border-[#000]'>
+                                            <Link href="/enrolment" className='inline-block text-center w-full  mt-3 py-2 px-[25px] leading-[1] text-[#101010] bg-[#a2c95c] text-[15px] border-[2px] border-[#a2c95c] font-bold  duration-400 ease-linear hover:bg-black hover:text-white hover:border-[#000]'>
                                                 Reserve Your Spot
                                             </Link>
                                         </div>
@@ -206,7 +206,7 @@ const page = () => {
                                                 <del className='text-[#FFFF] mb-1.5 font-medium'>Rs.20,700.00</del>
                                                 <span>Per Months</span>
                                             </div>
-                                            <Link href="" className='inline-block text-center w-full  mt-3 py-2 px-[25px] leading-[1] text-[#101010] bg-[#a2c95c] text-[15px] border-[2px] border-[#a2c95c] font-bold  duration-400 ease-linear hover:bg-black hover:text-white hover:border-[#000]'>
+                                            <Link href="/enrolment" className='inline-block text-center w-full  mt-3 py-2 px-[25px] leading-[1] text-[#101010] bg-[#a2c95c] text-[15px] border-[2px] border-[#a2c95c] font-bold  duration-400 ease-linear hover:bg-black hover:text-white hover:border-[#000]'>
                                                 Reserve Your Spot
                                             </Link>
                                         </div>
@@ -225,7 +225,7 @@ const page = () => {
                                                 <del className='text-[#909090] mb-1.5 font-medium'>Rs.20,700.00</del>
                                                 <span>3 Months</span>
                                             </div>
-                                            <Link href="" className='inline-block text-center w-full  mt-3 py-2 px-[25px] leading-[1] text-[#101010] bg-[#a2c95c] text-[15px] border-[2px] border-[#a2c95c] font-bold  duration-400 ease-linear hover:bg-black hover:text-white hover:border-[#000]'>
+                                            <Link href="/enrolment" className='inline-block text-center w-full  mt-3 py-2 px-[25px] leading-[1] text-[#101010] bg-[#a2c95c] text-[15px] border-[2px] border-[#a2c95c] font-bold  duration-400 ease-linear hover:bg-black hover:text-white hover:border-[#000]'>
                                                 Reserve Your Spot
                                             </Link>
                                         </div>
@@ -244,7 +244,7 @@ const page = () => {
                                                 <del className='text-[#909090] mb-1.5 font-medium'>Rs.124,200.00</del>
                                                 <span>18 Months</span>
                                             </div>
-                                            <Link href="" className='inline-block text-center w-full  mt-3 py-2 px-[25px] leading-[1] text-[#101010] bg-[#a2c95c] text-[15px] border-[2px] border-[#a2c95c] font-bold  duration-400 ease-linear hover:bg-black hover:text-white hover:border-[#000]'>
+                                            <Link href="/enrolment" className='inline-block text-center w-full  mt-3 py-2 px-[25px] leading-[1] text-[#101010] bg-[#a2c95c] text-[15px] border-[2px] border-[#a2c95c] font-bold  duration-400 ease-linear hover:bg-black hover:text-white hover:border-[#000]'>
                                                 Reserve Your Spot
                                             </Link>
                                         </div>
