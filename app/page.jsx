@@ -7,20 +7,21 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Modern from "@/components/Modern";
 import Teach from "@/components/Teach";
+import TopBar from "@/components/TopBar";
 
 
 export default function Home() {
   return (
     <>
-      <Header/>
-      <Banner/>
-      <Modern/>
-      <About/>
-      <FeatureCourse/>
-      <Courses/>
-      <Coaching/>
-      <Teach/>
-      <Footer/>
+      <Header />
+      <Banner />
+      <Modern />
+      <About />
+      <FeatureCourse />
+      <Courses />
+      <Coaching />
+      <Teach />
+      <Footer />
     </>
   );
 }

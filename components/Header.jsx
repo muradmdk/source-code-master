@@ -1,11 +1,14 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
+import TopBar from './TopBar'
 
 const Header = () => {
     return (
         <>
+            
             <div className='w-full fixed top-0 left-0  z-50 bg-[#101010] shadow-all-3 text-[#fff] py-2.5'>
+                <TopBar/>
                 {/* Container */}
                 <div className='w-full max-w-[1230px] px-[15px] mx-auto'>
                     <header>
