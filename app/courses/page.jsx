@@ -11,7 +11,7 @@ const page = () => {
             <div className='w-full max-w-[1230px] px-[15px] mx-auto'>
 
                 {/* Skills */}
-                <div className='pt-[90px]'>
+                <div className='pt-[120px]'>
 
                     <div className='bg-white p-5 my-[30px] shadow-all'>
                         <h2 className='text-[20px] text-[#101010] font-bold'>

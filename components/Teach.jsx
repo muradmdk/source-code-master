@@ -8,13 +8,13 @@ const Teach = () => {
             <div className='bg-[#a2c95c] w-full text-[#101010]'>
 
                 {/* Container */}
-                <div className='w-full px-[15px] mx-auto'>
+                <div className='w-full relative px-[15px] mx-auto sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px] 2xl:max-w-[1230px]'>
 
                     {/* Row */}
                     <div className='flex items-center flex-wrap mx-[-15]'>
 
                         {/* Column1  */}
-                        <div className='w-[100%] max-w-[41.666667%] flex-[41.666667%] min-h-[1px] relative z-[2]'>
+                        <div className='w-[100%] max-w-[41.666667%] flex-[41.666667%] min-h-[1px] relative z-[2] hidden lg:block'>
                             <div>
                                 <Image
                                     src="/images/Teach/ins.webp"
@@ -27,8 +27,8 @@ const Teach = () => {
                         </div>
 
                         {/* Column 2 */}
-                        <div className='w-[100%] max-w-[58.333333%] flex-[58.333333%] min-h-[1px] relative'>
-                            <div className='p-[40px] bg-[#FFFFFF1A] w-[600px] h-full relative'>
+                        <div className='w-[100%] max-w-[100%] flex-[100%] min-h-[1px] relative lg:max-w-[58.333333%] lg:flex-[58.333333%]'>
+                            <div className='px-4 lg:p-[40px] lg:bg-[#FFFFFF1A] lg:w-[600px] h-full relative md:text-center lg:text-start'>
                                 <h2 className='text-[#101010] text-[45px] leading-normal z-[2] relative block m-auto mt-[40px] font-bold'>
                                     Teach with Us
                                 </h2>
@@ -42,7 +42,7 @@ const Teach = () => {
                                     Join the ranks of our esteemed instructors at Source Code Academia and become a driving force in the global effort to enhance Muslim competency. As a member of our community, you will have the opportunity to make a real difference in the lives of students around the world and be a part of a movement that is working towards positive change. Together, we can create a brighter future for all.
                                 </p>
 
-                                <Link href="/courses" className='py-2 px-[25px] leading-[1] bg-[#101010] text-[#ffff] text-[15px] border-[2px] border-[#101010] w-auto h-auto font-semibold duration-400 ease-linear hover:bg-transparent hover:border-[#000] hover:text-[#101010]  '>
+                                <Link href="/courses" className='inline-block mb-8 lg:mb-0 py-2 px-[25px] leading-[1] bg-[#101010] text-[#ffff] text-[15px] border-[2px] border-[#101010] w-auto h-auto font-semibold duration-400 ease-linear hover:bg-transparent hover:border-[#000] hover:text-[#101010]  '>
                                     View All Courses
                                 </Link>
 

@@ -9,7 +9,7 @@ const page = () => {
     return (
         <>
             <Header/>
-            <div className='pt-[120px] pb-4'>
+            <div className='pt-[150px] pb-4'>
 
                 {/* container */}
                 <div className='w-full max-w-[1230px] px-[15px] mx-auto'>

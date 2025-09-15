@@ -9,7 +9,7 @@ const page = () => {
     return (
         <>
             <Header/>
-            <div className='pt-[93px] pb-[40px]'>
+            <div className='pt-[122px] pb-[40px]'>
 
                 {/* Blog Header */}
                 <div className='relative bg-[#101010]'>

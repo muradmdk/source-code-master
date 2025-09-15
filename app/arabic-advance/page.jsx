@@ -36,7 +36,7 @@ const page = () => {
     return (
         <>
             <Header/>
-            <div className='mb-[70px] pt-[140px]'>
+            <div className='mb-[70px] pt-[180px]'>
 
                 {/* Container */}
                 <div className='w-full max-w-[1230px] px-[15px] mx-auto'>

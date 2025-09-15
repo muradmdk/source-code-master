@@ -35,7 +35,7 @@ const page = () => {
         <>
             <Header />
             {/* Blog-Deatil header */}
-            <div className='pt-[93px] pb-[20px]'>
+            <div className='pt-[123px] pb-[20px]'>
                 <div className='bg-[#101010] relative'>
                     <Image
                         src="/images/blog-details/b-details-header.png"

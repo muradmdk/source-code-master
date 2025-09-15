@@ -5,7 +5,7 @@ import Image from 'next/image'
 const Coaching = () => {
     return (
         <>
-            <div className='bg-[#f8f8f8] pb-5'>
+            <div className='bg-[#f8f8f8] pb-5 hidden lg:block'>
 
                 {/* container */}
                 <div className=''>

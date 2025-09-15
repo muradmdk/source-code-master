@@ -12,19 +12,19 @@ import "swiper/css/scrollbar";
 const Courses = () => {
     return (
         <>
-            <div className='bg-[#f8f8f8] py-[70px]'>
+            <div className='bg-[#f8f8f8] py-[40px] sm:py-[70px]'>
 
                 {/* Container */}
-                <div className='w-full max-w-[1230px] px-[15px] mx-auto'>
+                <div className='w-full relative px-[15px] mx-auto sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px] 2xl:max-w-[1230px]'>
 
 
                     {/* Top-label */}
                     <div className='w-[100%] max-w-[100%] flex-[100%] min-h-[1px]'>
                         <div className='text-center'>
-                            <h2 className='text-[35px] font-bold leading-[1] text-[#101010] z-[2] relative'>
+                            <h2 className='text-[30px] xl:text-[35px] text-[#101010] font-bold leading-[1] z-[2] relative'>
                                 STEM Courses
                             </h2>
-                            <p className='text-[20px] w-[80%] mx-auto pt-[40px] pb-[30px]'>
+                            <p className='text-[16px] sm:text-[18px] lg:text-[20px] lg:w-[80%] lg:mx-auto pt-[40px] pb-[20px] md:pb-[30px]'>
                                 All of these STEM courses, accredited and aligned with modern standards of education, will be starting this summer, allowing students to excel in commercial certifications within just 3 to 4 years.
                             </p>
                         </div>
@@ -37,7 +37,7 @@ const Courses = () => {
 
                         <Swiper
                             direction={"horizontal"} // can be "vertical" too
-                            slidesPerView={4}      // show 4 slides at once
+                            slidesPerView={1}      // show 4 slides at once
                             spaceBetween={0}
                             slidesPerGroup={1}     // move only 1 slide per scroll
                             mousewheel={true} // enable mousewheel
@@ -45,6 +45,23 @@ const Courses = () => {
                                 hide: false, // show scrollbar
                             }}
                             modules={[Mousewheel, Scrollbar]}
+
+                            breakpoints={{
+                                576: {
+                                    slidesPerView: 2, // tablet
+                                },
+                                768: {
+                                    slidesPerView: 2, // desktop
+                                },
+
+                                992: {
+                                    slidesPerView: 3, // desktop
+                                },
+                                
+                                1200: {
+                                    slidesPerView: 4, // desktop
+                                },
+                            }}
                         >
                             <SwiperSlide>
                                 <div className='w-[100%] max-w-[100%] flex-[100%] min-h-[1px] px-[15px] mb-9'>
@@ -57,6 +74,7 @@ const Courses = () => {
                                                 width={280}
                                                 height={187}
                                                 alt="About-card-pic"
+                                                className='w-full h-full object-cover'
                                             />
                                         </div>
 
@@ -123,6 +141,8 @@ const Courses = () => {
                                                 width={280}
                                                 height={187}
                                                 alt="About-card-pic"
+                                                className='w-full h-full object-cover'
+
                                             />
                                         </div>
 
@@ -188,6 +208,8 @@ const Courses = () => {
                                                 width={280}
                                                 height={187}
                                                 alt="About-card-pic"
+                                                className='w-full h-full object-cover'
+
                                             />
                                         </div>
 
@@ -253,6 +275,8 @@ const Courses = () => {
                                                 width={280}
                                                 height={187}
                                                 alt="About-card-pic"
+                                                className='w-full h-full object-cover'
+
                                             />
                                         </div>
 
@@ -318,6 +342,8 @@ const Courses = () => {
                                                 width={280}
                                                 height={187}
                                                 alt="About-card-pic"
+                                                className='w-full h-full object-cover'
+
                                             />
                                         </div>
 
@@ -384,6 +410,8 @@ const Courses = () => {
                                                 width={280}
                                                 height={187}
                                                 alt="About-card-pic"
+                                                className='w-full h-full object-cover'
+
                                             />
                                         </div>
 

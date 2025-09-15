@@ -113,7 +113,7 @@ export default function AboutUsPage() {
   return (
     <>
       <Header/>
-      <div className="pt-[80px]">
+      <div className="pt-[120px]">
         {aboutData.sections.map((section) => renderSection(section))}
       </div>
       <Footer/>

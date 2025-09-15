@@ -8,11 +8,11 @@ const Footer = () => {
             <div className='bg-[#101010]'>
 
                 <div className='pt-[50px] pb-5'>
-                    <div className='w-full max-w-[1230px] px-[15px] mx-auto border-b border-[#2f2f2f] pb-5  '>
+                    <div className='w-full relative px-[15px] mx-auto sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px] 2xl:max-w-[1230px] border-b border-[#2f2f2f] pb-5  '>
 
                         <div className='flex flex-wrap mx-[-15]'>
 
-                            <div className='w-[100%] max-w-[33.333333%] flex-[33.333333%] min-h-[1px] px-[15px]'>
+                            <div className='w-[100%] max-w-[100%] flex-[100%] md:max-w-[50%] md:flex-[50%] lg:max-w-[33.333333%] lg:flex-[33.333333%] min-h-[1px] px-[15px]'>
 
                                 <Link href="/" className=''>
                                     <Image
@@ -92,7 +92,7 @@ const Footer = () => {
 
                             </div>
 
-                            <div className='w-[100%] max-w-[22%] flex-[25%] min-h-[1px] px-[15px]'>
+                            <div className='w-[100%] max-w-[100%] flex-[100%] md:max-w-[50%] md:flex-[50%] lg:max-w-[22%] lg:flex-[25%] min-h-[1px] px-[15px]'>
                                 <h2 className='text-[18px] text-white mb-[25px]'>Categories</h2>
                                 <ul>
                                     <li className='mb-2.5'>
@@ -117,7 +117,7 @@ const Footer = () => {
                             </div>
 
 
-                            <div className='w-[100%] max-w-[22%] flex-[25%] min-h-[1px] px-[15px]'>
+                            <div className='w-[100%] max-w-[100%] flex-[100%] md:max-w-[50%] md:flex-[50%] lg:max-w-[22%] lg:flex-[25%] min-h-[1px] px-[15px]'>
                                 <h2 className='text-[18px] text-white mb-[25px]'>About</h2>
                                 <ul>
                                     <li className='mb-2.5'>
@@ -148,7 +148,7 @@ const Footer = () => {
                             </div>
 
 
-                            <div className='w-[100%] max-w-[22%] flex-[25%] min-h-[1px] px-[15px]'>
+                            <div className='w-[100%] max-w-[100%] flex-[100%] md:max-w-[50%] md:flex-[50%] lg:max-w-[22%] lg:flex-[25%] min-h-[1px] px-[15px]'>
                                 <h2 className='text-[18px] text-white mb-[25px]'>Learn More</h2>
                                 <ul>
                                     <li className='mb-2.5'>
@@ -185,7 +185,7 @@ const Footer = () => {
 
                 {/* Copyright */}
                 <div className='pb-5'>
-                    <div className='w-full max-w-[1230px] px-[15px] mx-auto'>
+                    <div className='w-full relative px-[15px] mx-auto sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px] 2xl:max-w-[1230px]'>
                         <p className='text-white text-center'>
                             Copyright © 2025 sourcecode.academy All Rights Reserved. <Link href="" className='text-[#a2c95c]'>Developed By Allomate Solutions.</Link>
                         </p>
